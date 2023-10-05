@@ -59,6 +59,7 @@ void applyGaussianFilter(vector<char>& imageBuffer, int width, int height, int b
 int main() {
     float sigma = 6.0;
     string filename = "smi.bmp";
+
     ifstream file(filename, ios::binary);
     vector<char> imageBuffer;
 
